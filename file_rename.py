@@ -32,6 +32,6 @@ for i in range(0, len(original_name_list)):
 
     # Rename the file
     # TODO: Change this to the name you want here
-    new_name = current_dir + "\\" + header + str(i) + ".txt"
+    new_name = current_dir + "\\" + header + str(i) + extension_check
 
     os.rename(original_name_list[i], new_name)
