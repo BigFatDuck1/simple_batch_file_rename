@@ -1,7 +1,7 @@
 import os
 
 extension_check =  input("What file type should I only rename? (type in the dot! e.g. .pdf)\n")
-header = input("What header do you want all files to have?")
+header = input("What header do you want all files to have?\n")
 
 if extension_check == "":
     extension_check = ".pdf"
